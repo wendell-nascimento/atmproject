@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'myApp6.dart';
+import 'menu.dart';
 
 void main() {
-  runApp(MaterialApp(home: MyApp6()));
+  runApp(MaterialApp(home: Menu()));
 }

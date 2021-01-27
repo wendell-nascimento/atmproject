@@ -1,16 +1,15 @@
 import 'package:atmconsultoria_app/clientes.dart';
 import 'package:atmconsultoria_app/contato.dart';
 import 'package:atmconsultoria_app/empresa.dart';
-import 'package:atmconsultoria_app/segundaTela.dart';
 import 'package:atmconsultoria_app/servicos.dart';
 import 'package:flutter/material.dart';
 
-class MyApp6 extends StatefulWidget {
+class Menu extends StatefulWidget {
   @override
-  _MyApp6State createState() => _MyApp6State();
+  _MenuState createState() => _MenuState();
 }
 
-class _MyApp6State extends State<MyApp6> {
+class _MenuState extends State<Menu> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
